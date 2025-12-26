@@ -1,0 +1,39 @@
+/* src/pages/JobPage.css */
+.job-detail-container {
+  background-color: #000;
+  color: #fff;
+  min-height: 100vh;
+  padding: 40px 100px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.job-detail-container h1 {
+  font-size: 2rem;
+  color: #00aaff;
+  margin-bottom: 10px;
+}
+
+.job-subinfo {
+  font-size: 1rem;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+.job-description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  color: #eaeaea;
+}
+
+.job-details {
+  background-color: #111;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 170, 255, 0.2);
+  max-width: 500px;
+}
+
+.job-details strong {
+  color: #00aaff;
+}

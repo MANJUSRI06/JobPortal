@@ -1,0 +1,101 @@
+.about-page {
+    background-color: #f9f9f9;
+    color: #333;
+    min-height: 100vh;
+    padding-bottom: 40px;
+}
+
+@media (prefers-color-scheme: dark) {
+    .about-page {
+        background-color: #242424;
+        color: #e0e0e0;
+    }
+}
+
+.about-header {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    color: white;
+    margin-bottom: 40px;
+}
+
+.about-header .page-title {
+    font-size: 3rem;
+    margin: 0 0 10px;
+}
+
+.about-subtitle {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+.about-section {
+    padding: 40px 20px;
+    margin-bottom: 20px;
+}
+
+.content-container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    color: #2a5298;
+    /* Consistent brand color */
+}
+
+@media (prefers-color-scheme: dark) {
+    .about-section h2 {
+        color: #64b5f6;
+    }
+}
+
+.mission p,
+.team p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.value-card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+@media (prefers-color-scheme: dark) {
+    .value-card {
+        background: #333;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+}
+
+.value-card:hover {
+    transform: translateY(-5px);
+}
+
+.value-card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    color: #2a5298;
+}
+
+@media (prefers-color-scheme: dark) {
+    .value-card h3 {
+        color: #90caf9;
+    }
+}

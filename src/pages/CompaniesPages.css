@@ -1,0 +1,99 @@
+.companies-page {
+  background: black;
+  min-height: 100vh;
+  padding: 40px;
+  color: white;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 40px;
+  font-weight: bold;
+  color: #2f8cff; /* blue shade */
+}
+
+.companies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.company-card {
+  background: #111;
+  border: 1px solid #1e1e1e;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  transition: transform 0.3s, border-color 0.3s;
+}
+
+.company-card:hover {
+  transform: translateY(-6px);
+  border-color: #2f8cff;
+}
+
+.company-logo {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.industry {
+  color: #2f8cff;
+  font-weight: 500;
+  margin: 5px 0;
+}
+
+.location {
+  color: #ccc;
+  margin-bottom: 15px;
+}
+
+.view-jobs-btn {
+  width: 100%;
+  padding: 10px;
+  background: #2f8cff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.view-jobs-btn:hover {
+  background: #006be6;
+}
+
+.logo-container {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 15px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.company-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  margin-bottom: 0; /* Resetting margin as it is handled by container */
+}
+
+.company-initials-fallback {
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  color: #fff;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: 1px solid #444;
+}
